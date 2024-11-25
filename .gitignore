@@ -1,0 +1,16 @@
+# Ignorer les fichiers log
+*.log
+
+# Ignorer le répertoire node_modules
+node_modules/
+.venv/
+media/
+.DS_Store
+# Ignorer les fichiers d'environnement locaux
+.env
+.env.local
+.vscode/
+**/migrations/__init__.py
+**/__pycache__/
+*.py[cod]
+db.sqlite3
